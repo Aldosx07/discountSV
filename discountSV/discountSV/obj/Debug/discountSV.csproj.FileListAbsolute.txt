@@ -1,0 +1,9 @@
+C:\Users\aldos\Documents\GitHub\discountSV\discountSV\discountSV\bin\Debug\discountSV.exe.config
+C:\Users\aldos\Documents\GitHub\discountSV\discountSV\discountSV\bin\Debug\discountSV.exe
+C:\Users\aldos\Documents\GitHub\discountSV\discountSV\discountSV\bin\Debug\discountSV.pdb
+C:\Users\aldos\Documents\GitHub\discountSV\discountSV\discountSV\obj\Debug\discountSV.csprojAssemblyReference.cache
+C:\Users\aldos\Documents\GitHub\discountSV\discountSV\discountSV\obj\Debug\discountSV.DiscountSV.resources
+C:\Users\aldos\Documents\GitHub\discountSV\discountSV\discountSV\obj\Debug\discountSV.Properties.Resources.resources
+C:\Users\aldos\Documents\GitHub\discountSV\discountSV\discountSV\obj\Debug\discountSV.csproj.GenerateResource.cache
+C:\Users\aldos\Documents\GitHub\discountSV\discountSV\discountSV\obj\Debug\discountSV.exe
+C:\Users\aldos\Documents\GitHub\discountSV\discountSV\discountSV\obj\Debug\discountSV.pdb

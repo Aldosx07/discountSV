@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace discountSV
 {
-    public partial class Form1 : Form
+    public partial class DiscountSV : Form
     {
-        public Form1()
+        public DiscountSV()
         {
             InitializeComponent();
         }
