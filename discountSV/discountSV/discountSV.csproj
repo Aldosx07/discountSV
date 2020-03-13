@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalcularSalario.cs" />
     <Compile Include="DiscountSV.cs">
       <SubType>Form</SubType>
     </Compile>
