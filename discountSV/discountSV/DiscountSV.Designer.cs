@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtSalario = new System.Windows.Forms.TextBox();
+            this.txtAFP = new System.Windows.Forms.TextBox();
+            this.txtISSS = new System.Windows.Forms.TextBox();
+            this.txtAFPISSS = new System.Windows.Forms.TextBox();
+            this.txtRenta = new System.Windows.Forms.TextBox();
+            this.txtMensual = new System.Windows.Forms.TextBox();
+            this.txtQuincenal = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -58,61 +58,67 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Calculo de descuentos en El Salvador";
             // 
-            // textBox1
+            // txtSalario
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(272, 84);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 38);
-            this.textBox1.TabIndex = 1;
+            this.txtSalario.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSalario.Location = new System.Drawing.Point(272, 84);
+            this.txtSalario.Name = "txtSalario";
+            this.txtSalario.Size = new System.Drawing.Size(220, 38);
+            this.txtSalario.TabIndex = 1;
             // 
-            // textBox2
+            // txtAFP
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(272, 152);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(220, 38);
-            this.textBox2.TabIndex = 2;
+            this.txtAFP.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAFP.Location = new System.Drawing.Point(272, 152);
+            this.txtAFP.Name = "txtAFP";
+            this.txtAFP.ReadOnly = true;
+            this.txtAFP.Size = new System.Drawing.Size(220, 38);
+            this.txtAFP.TabIndex = 2;
             // 
-            // textBox3
+            // txtISSS
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(272, 220);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(220, 38);
-            this.textBox3.TabIndex = 3;
+            this.txtISSS.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtISSS.Location = new System.Drawing.Point(272, 220);
+            this.txtISSS.Name = "txtISSS";
+            this.txtISSS.ReadOnly = true;
+            this.txtISSS.Size = new System.Drawing.Size(220, 38);
+            this.txtISSS.TabIndex = 3;
             // 
-            // textBox4
+            // txtAFPISSS
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(272, 288);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(220, 38);
-            this.textBox4.TabIndex = 4;
+            this.txtAFPISSS.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAFPISSS.Location = new System.Drawing.Point(272, 288);
+            this.txtAFPISSS.Name = "txtAFPISSS";
+            this.txtAFPISSS.ReadOnly = true;
+            this.txtAFPISSS.Size = new System.Drawing.Size(220, 38);
+            this.txtAFPISSS.TabIndex = 4;
             // 
-            // textBox5
+            // txtRenta
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(272, 356);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(220, 38);
-            this.textBox5.TabIndex = 5;
+            this.txtRenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRenta.Location = new System.Drawing.Point(272, 356);
+            this.txtRenta.Name = "txtRenta";
+            this.txtRenta.ReadOnly = true;
+            this.txtRenta.Size = new System.Drawing.Size(220, 38);
+            this.txtRenta.TabIndex = 5;
             // 
-            // textBox6
+            // txtMensual
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(272, 424);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(220, 38);
-            this.textBox6.TabIndex = 6;
+            this.txtMensual.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMensual.Location = new System.Drawing.Point(272, 424);
+            this.txtMensual.Name = "txtMensual";
+            this.txtMensual.ReadOnly = true;
+            this.txtMensual.Size = new System.Drawing.Size(220, 38);
+            this.txtMensual.TabIndex = 6;
             // 
-            // textBox7
+            // txtQuincenal
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(272, 492);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(220, 38);
-            this.textBox7.TabIndex = 7;
+            this.txtQuincenal.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQuincenal.Location = new System.Drawing.Point(272, 492);
+            this.txtQuincenal.Name = "txtQuincenal";
+            this.txtQuincenal.ReadOnly = true;
+            this.txtQuincenal.Size = new System.Drawing.Size(220, 38);
+            this.txtQuincenal.TabIndex = 7;
             // 
             // label2
             // 
@@ -214,6 +220,7 @@
             this.btnBorrar.TabIndex = 17;
             this.btnBorrar.Text = "Limpiar";
             this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // DiscountSV
             // 
@@ -230,13 +237,13 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtQuincenal);
+            this.Controls.Add(this.txtMensual);
+            this.Controls.Add(this.txtRenta);
+            this.Controls.Add(this.txtAFPISSS);
+            this.Controls.Add(this.txtISSS);
+            this.Controls.Add(this.txtAFP);
+            this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.label1);
             this.Name = "DiscountSV";
             this.Text = "Form1";
@@ -248,13 +255,13 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtSalario;
+        private System.Windows.Forms.TextBox txtAFP;
+        private System.Windows.Forms.TextBox txtISSS;
+        private System.Windows.Forms.TextBox txtAFPISSS;
+        private System.Windows.Forms.TextBox txtRenta;
+        private System.Windows.Forms.TextBox txtMensual;
+        private System.Windows.Forms.TextBox txtQuincenal;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

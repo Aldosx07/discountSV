@@ -15,11 +15,34 @@ namespace discountSV
         public DiscountSV()
         {
             InitializeComponent();
+            
         }
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
+            float salario = float.Parse(txtSalario.Text);
+            CalcularSalario calcular = new CalcularSalario();
+            calcular.
+        }
 
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            clear();
+        }
+
+
+
+        void clear()
+        {
+            txtSalario.Clear();
+            txtAFP.Clear();
+            txtAFPISSS.Clear();
+            txtISSS.Clear();
+            txtMensual.Clear();
+            txtQuincenal.Clear();
+            txtRenta.Clear();
         }
     }
+
 }
+

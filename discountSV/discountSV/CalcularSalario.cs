@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace discountSV
 {
-    class CalcularSalario
+    class CalcularSalario : DiscountSV
     {
-        function calcularSalario()
+        void calcularSalario()
         {
             var sueldo = document.calculo.ingreso.value;
             var sbruto = sueldo - (Math.round(sueldo * 0.725 * 10) / 100) - (Math.round(sueldo * 0.03 * 100) / 100);
@@ -98,6 +98,6 @@ namespace discountSV
             {
                 return false;
             }
-        }
+        }*/
     }
 }
